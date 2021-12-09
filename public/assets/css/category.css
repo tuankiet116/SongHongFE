@@ -1,0 +1,72 @@
+/* Set the maximum width of the menu wrapper */
+#category-menu{
+  max-width:250px;
+}
+
+/* we remove the margin, padding and list styles of the ul li list */
+#category-menu ul, #category-menu ul li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+/* Adding the border to the parent ul and remove the border bottom */
+#category-menu > ul{
+  /* border:solid 1px #000; */
+  border-bottom:none;
+  background:transparent;
+}
+
+/* Apply border bottom to the first level of li list only */
+#category-menu > ul > li{
+  border-bottom:solid 1px #000;
+}
+
+/* Styling for all links inside the category menu */
+#category-menu ul li a{
+  font-size:12px;
+  color:#000;
+  text-decoration:none;
+  font-family:arial;
+  display:inline-block;
+  width:100%;
+  cursor:pointer;
+}
+
+/* set the padding space and position for all li list */
+#category-menu ul li{
+  padding:5px 10px;
+  position:relative;
+}
+
+/* hiding the ul 2nd and 3rd levels */
+#category-menu ul li ul, #category-menu ul li ul li ul{
+  display:none;
+}
+
+/* styling the color for the 2nd level ul */
+#category-menu > ul > li > ul{
+  background:#fff;
+  margin:10px 0;
+}
+
+/* styling the color for the 3rd level ul */
+#category-menu > ul > li > ul > li > ul{
+  background:#ade5f5;
+  margin:10px 0;
+}
+
+/* styling the arrows style */
+span.arrow, span.arrow-down{
+  background:url(../images/icons/up-icn.png) no-repeat;
+  width:12px;
+  height:8px;
+  display:inline-block;
+  position:absolute;
+  right:10px;
+  top:10px;
+}
+
+span.arrow-down{
+  background:url(../images/icons/down-icn.png) no-repeat;
+}

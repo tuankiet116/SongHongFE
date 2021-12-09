@@ -1,0 +1,12 @@
+User-agent: Twitterbot
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Yandex
+User-agent: Facebot
+User-agent: Baiduspider
+User-agent: *
+
+Disallow: /tim-kiem/
+Allow: /
+
+Sitemap: http://songhonghn.com/sitemap.xml

@@ -1,0 +1,1060 @@
+.featured-main img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    padding-right: 0;
+}
+
+.post-related-items {
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    /* font-family: 'Lato',sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif !important;
+    color: rgb(255, 71, 100);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.contact h5 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact .contact-container p {
+    margin: 12px 0;
+}
+
+.contact .contact-container p i {
+    margin-right: 10px;
+    color: rgb(255, 71, 100);
+    font-size: 16px;
+}
+
+.contact .contact-form input, textarea {
+    width: 100%;
+    border-radius: 0px !important;
+    border: 1px solid rgb(239, 237, 238) !important;
+    padding: 5px 12px;
+    margin-bottom: 12px;
+}
+
+.contact .contact-form input::placeholder {
+    color: rgb(217, 217, 217);
+}
+
+.contact .contact-form textarea {
+    min-height: 228px;
+    max-height: 350px;
+    padding: 6px 10px;
+}
+
+.contact .contact-form button {
+    background-color: rgb(255, 0, 128);
+    border-radius: 0px;
+    color: white;
+    text-transform: uppercase;
+    padding: 18px 70px;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.promote-more {
+    width: 100%;
+}
+
+.promote-more button {
+    border: 2px solid rgb(255, 0, 128);
+    border-radius: 0px;
+    background-color: white;
+    color: rgb(255, 0, 128);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    transition: .3s;
+    margin-left: 12px;
+}
+
+.promote-more button:hover {
+    background-color: rgb(255, 0, 128);
+    color: white;
+    transition: .3s;
+}
+
+.featured-item .featured-detail-item {
+    width: 100% !important;
+}
+
+.slick-dots {
+    margin: 0 auto !important;
+    text-align: center;
+    margin-top: 15px !important;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    display: inline-block;
+}
+
+.slick-dots li button {
+    border: 1px solid rgb(203, 203, 203);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: transparent;
+    background-color: rgb(203, 203, 203);
+    margin: 0 4px;
+    outline: none;
+    transition: .3s;
+}
+
+.slick-dots li.slick-active button {
+    width: 30px;
+    background-color: rgb(255, 171, 184);
+    border: 1px solid rgb(255, 171, 184);
+    border-radius: 80px;
+    transition: .3s;
+}
+
+.block2-pic {
+	height: 200px;
+	overflow: hidden;
+    position: relative;
+}
+
+.block2-pic img {
+	height: 100%;
+	object-fit: cover;
+}
+
+.block2-pic .product-alt-img {
+    width: 100%;
+	height: 200px;
+	overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 100;
+}
+
+.block2-pic .product-alt-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block2-pic:hover .product-alt-img {
+	display: block;
+}
+
+.block2-pic .block2-btn {
+    z-index: 200;
+}
+
+.out-of-stock {
+    z-index: 300 !important;
+}
+
+.block2-pic .product-btn-group .block2-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    border-radius: 0 !important;
+    padding: 5px !important;
+    border: 2px solid #FF4764 !important;
+    text-transform: uppercase;
+}
+
+.block2-pic .product-btn-group .product-btn-more .block2-btn-new {
+    background-color: white !important;
+    color: #FF4764 !important;
+    white-space: nowrap;
+    width: 120px;
+    text-align: center;
+    margin-left: 11px;
+    transition: .3s;
+}
+
+.block2-pic .product-btn-group .product-btn-add .block2-btn-new {
+    background-color: #FF4764 !important;
+    color: white !important;
+    white-space: nowrap;
+    width: 120px;
+    text-align: center;
+    margin-left: -11px;
+    transition: .3s;
+}
+
+.nice-select .current {
+    position: absolute;
+    width: 44%;
+    overflow-x: hidden;
+}
+
+.product-cate-sel .current {
+    width: 80% !important;
+    top: 0;
+}
+
+.product-cate-sel ul.list {
+    overflow: auto !important;
+}
+
+.product-list-item {
+    height: 150px !important;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-list-item img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.nice-select .current {
+    position: absolute;
+    width: 44%;
+    overflow-x: hidden;
+}
+
+.cart-container {
+    margin: 0 auto !important;
+}
+
+#myBtn {
+    color: white;
+    background-color: rgb(253, 140, 158);
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+.single-item img {
+    width: 100% !important;
+}
+
+.fb_dialog_content iframe {
+    bottom: 100px !important;
+}
+
+.fb_iframe_widget_fluid_desktop iframe { 
+    width: 100% !important 
+}
+
+
+
+/********** PAYMENT **********/
+
+.order-item-content {
+	border: 1px solid #e6e6e6;
+    padding-top: 13px;
+    max-height: 291px;
+    overflow: auto;
+}
+
+.order-item-content ul {
+	margin-top: 0 !important;
+}
+
+.order-item-content .order-item-left,
+.order-item-content .order-item-middle,
+.order-item-content .order-item-right {
+	padding: 0 !important;
+}
+
+.order-item-content .order-item-left {
+	height: auto;
+}
+
+.order-item-content .order-item-left .order-item-image {
+	height: 80px;
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.order-item-content .order-item-left .order-item-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.order-item-content .order-item-left .order-item-count {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	z-index: 500;
+}
+
+.order-item-content .order-item-middle {
+	padding: 0 5px !important;
+}
+
+.order-item-content .order-item-middle p {
+	color: rgb(30, 30, 30) !important;
+}
+
+.order-item-content .order-item-middle .order-item-properties p {
+	display: inline-block;
+	font-size: 12px !important;
+	color: #757575 !important;
+}
+
+.order-item-content .order-item-right p {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+/********** TABS **********/
+
+#tabs li p {
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#tabs li p:hover {
+    color: rgb(216, 17, 142);
+    transition: .3s;
+}
+
+#tabs li p i {
+    margin-right: 8px;
+}
+
+#tabs li p.list-profile-active {
+    color: rgb(216, 17, 142);
+    transition: .3s;
+}
+
+
+
+/********** TABS CONTAINER **********/
+
+.profile-content {
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.profile-content .profile-box .profile-info {
+    border: 1px solid #e6e6e6;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.profile-content .profile-box .profile-info .profile-title {
+    color: rgb(216, 17, 142);
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(216, 17, 142);
+    position: absolute;
+    top: -25px;
+    left: 15px;
+}
+
+.profile-content .profile-box .profile-info .profile-title i {
+    margin-right: 8px;
+}
+
+.profile-content .profile-box .profile-info .profile-text {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.profile-content .profile-edit {
+    padding: 0 20%;
+}
+
+.profile-content .profile-edit label {
+    color: rgb(216, 17, 142) !important;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.profile-content .profile-edit label i {
+    margin-right: 8px;
+}
+
+.profile-content .profile-edit input {
+    border: 1px solid #FFABB8 !important;
+    border-radius: 3px !important;
+    background: white !important;
+    padding: 3px !important; 
+    height: 33px !important;
+    padding: 0 10px !important;
+}
+
+.profile-status-container {
+    padding: 15px;
+}
+
+.profile-status-tab-content {
+    max-height: 1400px;
+    overflow: auto;
+}
+
+.profile-status-container .profile-list-status {
+    border: 1px solid #e6e6e6;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.profile-status-container .profile-list-status div {
+    border-bottom: 2px solid transparent;
+    padding: 10px 5px;
+}
+
+.profile-status-container .profile-list-status div p {
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.profile-status-container .profile-list-status div:hover {
+    border-bottom: 2px solid rgb(216, 17, 142);
+    transition: .4s;
+}
+
+.profile-status-container .profile-list-status div.profile-list-div-active {
+    border-bottom: 2px solid rgb(216, 17, 142);
+    transition: .4s;
+}
+
+.profile-status-container .profile-list-status div p.profile-list-p-active {
+    color: rgb(216, 17, 142);
+    transition: .4s;
+}
+
+.profile-status-container .profile-list-status div:hover p {
+    color: rgb(216, 17, 142);
+    transition: .4s;
+}
+
+.profile-status-items {
+    border: 1px solid #e6e6e6;
+    height: auto;
+    margin-top: 15px;
+}
+
+.profile-status-items .row {
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.profile-status-items .row:nth-child(1) {
+    padding-top: 5px;
+}
+
+.profile-status-items .row:nth-child(2) {
+    padding-top: 0;
+}
+
+.profile-status-items .row:first-child {
+    border-bottom: 1px solid transparent;
+}
+
+.profile-status-items .profile-status-items-name, 
+.profile-status-items .profile-status-items-payment {
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profile-status-items .profile-status-items-payment {
+    text-align: right;
+}
+
+.profile-status-items .profile-status-items-name p i,
+.profile-status-items .profile-status-items-payment p i {
+    margin-right: 5px;
+}
+
+.profile-status-items .profile-status-items-name p {
+    font-weight: bold;
+}
+
+.profile-status-items .profile-status-items-name span {
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.profile-status-items .profile-status-items-payment p {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.profile-status-items .profile-status-items-payment .paid {
+    color: rgb(8, 184, 8);
+    margin-right:8px;
+}
+
+.profile-status-items .profile-status-items-payment .unpay {
+    color: rgb(206, 11, 11);
+    margin-right:8px;
+}
+
+.profile-status-items .profile-status-items-img {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.profile-status-items .profile-status-items-img img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.profile-status-items .profile-status-items-title {
+    font-weight: bold;
+}
+
+.profile-status-items .profile-status-items-count {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.profile-status-items .profile-status-items-cash {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profile-status-items .profile-status-items-total {
+    padding: 20px;
+}
+
+.profile-status-items .profile-status-items-total p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-status-items .profile-status-items-total p i {
+    margin-right: 3px;
+    font-size: 22px;
+    color: rgb(8, 184, 8);
+}
+
+.profile-status-items .profile-status-items-total p span {
+    font-size: 22px;
+    color: rgb(8, 184, 8);
+    margin-left: 10px;
+}
+
+.profile-btn {
+    width: 35% !important;
+}
+
+
+
+/********** ORDER CHECK **********/
+
+.order-status-title,
+.order-status-note,
+.order-status-sub {
+    text-align: center;
+}
+
+.order-status-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    color: rgb(30, 30, 30);
+}
+
+.order-status-note {
+    color: rgb(255, 42, 42);
+    margin-bottom: 5px;
+}
+
+.order-status-sub {
+    margin-bottom: 30px;
+}
+
+.order-form input {
+    display: block;
+    width: 100%;
+}
+
+.order-or {
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.order-check-btn {
+    background-color: #FF0080;
+    color: white;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    white-space: nowrap;
+    outline: none !important;
+    position: absolute;
+    bottom: 15px;
+}
+
+.order-status-suggest {
+    font-style: italic;
+    color: rgb(30, 30, 30);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.order-status-suggest span {
+    color: rgb(116, 116, 253);
+    font-weight: bold;
+}
+
+.order-status-container {
+    border: 1px solid #e6e6e6;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.order-status-container .order-status-head {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    padding: 10px;
+    box-shadow: 0px 1px 8px 5px rgb(0, 0, 0, 0.2);
+}
+
+.order-status-container .order-status-head p {
+    font-size: 13px;
+}
+
+.order-status-container .order-status-head .row div:not(:last-child) p {
+    border-right: 1px solid #e6e6e6;
+}
+
+.order-status-container .order-status-head p i {
+    cursor: pointer;
+    margin-left: 3px;
+    transition: .3s;
+}
+
+.order-status-container .order-status-head p i:hover {
+    color: rgb(116, 116, 253);
+    transition: .3s;
+}
+
+.order-status-container .order-status-progress {
+    width: 50% !important;
+    margin: 40px auto;
+    padding-left: 50px;
+}
+
+.order-status-container .order-status-progress .progress-content {
+    border: 3px solid #FF0080;
+    border-radius: 50%;
+    padding-top: 7px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.order-status-container .order-status-progress .progress-content.progress-active {
+    box-shadow: 0px 1px 8px 5px rgb(255, 0, 128, 0.5);
+    background-color: #FF0080;
+}
+
+.order-status-container .order-status-progress .progress-content.progress-active i {
+    color: white;
+}
+
+.order-status-container .order-status-progress .progress-content i {
+    color: rgb(30, 30, 30);
+    font-size: 20px;
+}
+
+.order-status-container .order-status-progress .progress-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(30, 30, 30);
+    position: absolute;
+    top: 26%;
+    left: 0;
+}
+
+.order-status-container .order-status-progress .progress-line-in {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(30, 30, 30);
+    position: absolute;
+    top: 26%;
+    left: 55px;
+}
+
+.order-status-container .order-status-progress .progress-vertical {
+    width: 2px;
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    position: absolute;
+    left: 34px;
+    top: 0;
+    display: none;
+}
+
+.order-status-container .order-status-progress p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FF0080;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.order-status-container .order-status-table {
+    padding: 0 15px;
+}
+
+.order-status-container .order-status-table .order-status-table-container .order-status-table-content table thead tr th {
+    background-color: rgb(246, 246, 246);
+}
+
+
+
+/********** FOOTER **********/
+
+.footer-bottom {
+    min-height: 80px;
+    width: 100%;
+    background-color: #FFABB8;
+    margin-top: 10px;
+}
+
+.footer-bottom .copyright {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.footer-bottom .copyright p {
+    font-size: 13px;
+}
+
+.footer-bottom .footer-logo {
+    padding-top: 8px;
+}
+
+.footer-bottom .footer-logo .footer-logo-content {
+    width: 200px;
+    height: 78px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-bottom .footer-logo .footer-logo-content img {
+    width: 100%;
+    height: 76px;
+    object-fit: cover;
+}
+
+
+
+/********** SLICK **********/
+
+.wrap-slick3-dots img {
+    height: auto !important;
+}
+
+
+
+
+/********** RESPONSIVE **********/
+
+@media screen and (max-width: 1181px) {
+
+	.order-item-content .order-item-left .order-item-image {
+		height: 120px;
+	}
+}
+
+@media screen and (max-width: 990px) {
+    .featured-main img {
+        height: 251px !important;
+    }
+
+    .promote-img img {
+        height: 100% !important;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 789px) {
+    .cart-container {
+        width: 90%;
+    }
+
+    .post-list a img {
+        height: 450px !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .featured-main img {
+        height: 95px !important;
+    }
+
+    .promote-img img {
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+    .promote-img {
+        height: 280px !important;
+    }
+
+    .single-service i {
+        padding-left: 40px !important;
+    }
+
+    .single-service p.text-service {
+        margin-top: 0 !important;
+    }
+
+    .or-content {
+        height: 25px;
+    }
+    
+    .btn-content {
+        height: 75px;
+    }
+
+    .order-or {
+        bottom: 0;
+    }
+
+    .order-status-container .order-status-progress {
+        padding-left: 0;
+    }
+
+    .order-status-container .order-status-progress .progress-line-box {
+        height: 50px;
+    }
+
+    .order-status-container .order-status-progress .progress-line,
+    .order-status-container .order-status-progress .progress-line-in {
+        display: none;
+    }
+
+    .order-status-container .order-status-progress .progress-line-box .progress-vertical {
+        display: block;
+    }
+
+    .order-status-container .order-status-progress .progress-content {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .order-status-container .order-status-progress .progress-vertical {
+        left: 50%;
+    }
+
+    .order-status-container .order-status-progress .progress-content {
+        margin: 0;
+    }
+
+    .footer-bottom .copyright p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+	.order-item-content .order-item-left .order-item-image {
+		height: 90px;
+	}
+
+    .profile-content .profile-edit {
+        padding: 0 !important;
+    }
+
+    .profile-btn {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .slick-dots {
+        bottom: unset;
+    }
+
+    .block2-pic {
+        height: 140px;
+    }
+
+    .wrap-slick2 .arrow-slick2 {
+        top: 30%;
+    }
+
+    .post-list a img {
+        height: 200px !important;
+    }
+
+    .fb-page iframe{
+        left: 100%;
+        transform: translateX(-87.5%);
+    }
+
+    .payment-type {
+        padding: 0 20px;
+    }
+
+    .order-status-container .order-status-table .order-status-table-container {
+        overflow: auto;
+    }
+
+    .order-status-container .order-status-table .order-status-table-container .order-status-table-content {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .product-bg{
+        display: block;
+    }
+
+    .profile-status-items .profile-status-items-title,
+    .profile-status-items .profile-status-items-properties,
+    .profile-status-items .profile-status-items-count {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .block2-pic:hover .product-btn-group .block2-btn {
+        display: none !important;
+    }
+
+    .cart-container {
+        width: 87%;
+    }
+
+    #scrollUp {
+        right: 50px !important;
+    }
+
+    .fb-like span {
+        width: 100% !important;
+    }
+
+    .fb-like span iframe {
+        width: 360px !important;
+    }
+
+    .fb-page iframe {
+        transform: translateX(-99.5%);
+    }
+
+    .footer-bottom .footer-logo .footer-logo-content {
+        width: 201px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+	.order-item-content .order-item-left .order-item-image {
+		height: 80px;
+	}
+
+    .fb-like span {
+        width: 100% !important;
+    }
+
+    .fb-like span iframe {
+        width: 300px !important;
+    }
+
+    .fb-page iframe {
+        transform: translateX(-104%);
+    }
+
+    .profile-status-items .profile-status-items-title,
+    .profile-status-items .profile-status-items-properties,
+    .profile-status-items .profile-status-items-count {
+        padding-left: 25px;
+    }
+
+    .profile-status-items .profile-status-items-cash {
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    #myBtn {
+        padding: 10px;
+    }
+
+    .order-item-content .order-item-left .order-item-image {
+		height: 67px;
+	}
+
+    .fb-like span {
+        width: 100% !important;
+    }
+
+    .fb-like span iframe {
+        width: 258px !important;
+    }
+
+    .fb-page span {
+        width: 100% !important;
+    }
+
+    .fb-page span iframe {
+        transform: translateX(-104%);
+    }
+
+    .profile-status-items .profile-status-items-title,
+    .profile-status-items .profile-status-items-properties,
+    .profile-status-items .profile-status-items-count {
+        padding-left: 30px;
+        font-size: 10px;
+    }
+
+    .profile-status-items .profile-status-items-cash {
+        font-size: 10px;
+    }
+}

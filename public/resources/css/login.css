@@ -1,0 +1,517 @@
+/********** LOGIN **********/
+
+.modal-login {
+    width: 915px !important;
+    background-color: rgba(248, 248, 248, 0.5);
+}
+
+.modal-login .login-close {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: white !important;
+    color: rgb(150, 150, 150) !important;
+    outline: none;
+}
+
+.modal-login .login-close span {
+    font-size: 20px !important;
+    position: relative;
+    top: -5px;
+}
+
+.modal-login .modal-content {
+    height: 635px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 6px;
+    margin-top: -100px !important;
+}
+
+.modal-login .modal-content .modal-body {
+    min-height: 635px;
+}
+
+#modal_close {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    overflow-y: auto;
+}
+
+/***** LOGIN LEFT *****/
+
+.modal-login .modal-content .login-left-container {
+    padding: 0;
+}
+
+.modal-login .modal-content .login-left {
+    width: 368px;
+    height: 630px;
+    background-color: white;
+    padding: 45px 33px 10px 33px;
+    display: none;
+}
+
+.modal-login .modal-content .login-left h1 {
+    color: rgb(36, 36, 36);
+    font-weight: normal;
+}
+
+.modal-login .modal-content .login-left p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+    padding: 15px 15px 0 0;
+}
+
+.modal-login .modal-content .login-left .login-image {
+    height: auto;
+    overflow: hidden;
+    margin-top: 56px;
+}
+
+.modal-login .modal-content .login-left .login-image img {
+    width: 100%;
+    height: 305px;
+    object-fit: cover;
+}
+
+/***** LOGIN RIGHT *****/
+
+.modal-login .modal-content .login-right-container {
+    padding: 15px 5px;
+    padding-right: 16.5px;
+}
+
+.modal-login .modal-content .login-right {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.modal-login .modal-content .login-right .login-tabs {
+    border-bottom: 1px solid rgb(248, 248, 248);
+    height: auto;
+}
+
+.modal-login .modal-content .login-right .login-tabs .list-login li {
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.modal-login .modal-content .login-right .login-tabs .list-login li a {
+    cursor: pointer;
+    color: rgb(150, 150, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.modal-login .modal-content .login-right .login-tabs .list-login li a.tabs-active {
+    color: rgb(0, 161, 177);
+    transition: .3s;
+}
+
+.modal-login .modal-content .login-right .login-container {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.modal-login .modal-content .login-right .login-container .login-text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.modal-login .modal-content .login-right .login-container input {
+    font-size: 14px;
+    padding: 6px 13px;
+}
+
+.modal-login .modal-content .login-right .login-container .remember-check {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(130, 130, 130);
+    padding-top: 10px;
+}
+
+.modal-login .modal-content .login-right .login-container .remember-check label {
+    margin-left: -22px;
+}
+
+.modal-login .modal-content .login-right .login-container .login-btn {
+    background-color: rgb(0, 161, 177);
+    color: white;
+    padding: 13px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.modal-login .modal-content .login-right .login-container .blue-text {
+    color: rgb(0, 161, 177);
+}
+
+.modal-login .modal-content .login-right .login-container .red-text {
+    color: red;
+}
+
+.modal-login .modal-content .login-right #tab_signup_hide input::placeholder {
+    color: rgb(164, 194, 194) !important;
+}
+
+.modal-login .modal-content .login-right .login-container .signup-btn-container p {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(130, 130, 130);
+    font-size: 12.5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.modal-login .modal-content .login-right .login-container .input-btn-form {
+    position: relative;
+    height: 37px;
+}
+
+.modal-login .modal-content .login-right .login-container .input-btn-form #get_otp {
+    background-color: rgb(0, 161, 177);
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 11px 17px;
+    outline: none;
+}
+
+.left-active {
+    display: block !important;
+}
+
+.modal-alert-position {
+    position: absolute;
+    bottom: -22px;
+    display: none;
+    font-family: "Roboto", Arial;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.register-form {
+    height: 58px !important;
+    margin-bottom: 0 !important;
+}
+
+
+.register-form .form-control {
+    border: 1px solid #ced4da !important;
+    color: rgb(30, 30, 30) !important;
+}
+
+/***** USER NAME *****/
+
+.welcome-user {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.welcome-user p {
+    cursor: pointer;
+    padding-top: 8.5px;
+    font-family: 'Lato', sans-serif;
+    transition: .3s;
+}
+
+.welcome-user p:hover {
+    color: #6c7ae0;
+    transition: .3s;
+}
+
+.welcome-user p i {
+    background-color: rgb(255, 171, 184);
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+/***** USER DROPDOWN *****/
+
+.welcome-user .user-container {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    transition: .3s;
+}
+
+.welcome-user .user-container .user-hover {
+    width: 170px;
+    height: 10px;
+}
+
+.welcome-user .user-container .user-dropdown {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+    padding: 10px 15px;
+}
+
+.welcome-user .user-container .user-dropdown ul li:not(:first-child) {
+    padding-top: 5px;
+}
+
+.welcome-user .user-container .user-dropdown ul li a {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.welcome-user .user-container .user-dropdown ul li a i {
+    margin-right: 5px;
+}
+
+.welcome-user:hover .user-container {
+    display: block;
+    transition: .3s;
+    animation-name: user_drop;
+    animation-duration: 0.7s;
+}
+
+/***** HEADER ICON *****/
+
+#counter {
+    color: #FF0080;
+    background-color: #F9E7E7;
+    font-size: 11px;
+    padding: 2px 4.5px;
+    position: absolute;
+    top: -7px;
+    right: 0;
+}
+
+#header-icon span:not(.animated-counter) {
+    display: flex;
+}
+
+#menu #cart span.animated-counter {
+    animation: cart_counter .4s ease-in-out;
+}
+
+
+
+/********** ANIMATION **********/
+
+@keyframes user_drop {
+    0%   {opacity: 0}
+    50%  {opacity: 1}
+    100% {opacity: 1}
+}
+
+@keyframes cart_counter {
+    0%   {top: -18px; right: -30px; transform: rotate(120deg)}
+    25%  {top: -15px; right: -20px; transform: rotate(80deg)}
+    50%  {top: -12px; right: -10px; transform: rotate(60deg)}
+    75%  {top: -10px; right: -3px; transform: rotate(30deg)}
+    100% {top: -10px; right: -8px; transform: rotate(0)}
+}
+
+
+
+/********** RESPONSIVE **********/
+
+@media screen and (max-width: 991px) {
+
+    .modal-login .modal-content .login-left {
+        width: 100%;
+        height: 630px;
+    }
+
+    .modal-login .modal-content .login-left .login-image {
+        height: 305px;
+        width: 90%;
+        overflow: hidden;
+        margin: 56px auto;
+    }
+
+    .modal-login .modal-content .login-left .login-image img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .modal-login .modal-content .login-right-container {
+        padding: 15px 15px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+
+    .welcome-user {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .welcome-user p {
+        color: white !important;
+    }
+
+    .welcome-user .user-container .user-dropdown ul li a {
+        color: rgb(30, 30, 30);
+        font-weight: bold;
+        transition: .3s;
+    }
+
+    .welcome-user .user-container .user-dropdown ul li a:hover {
+        color: #6c7ae0;
+        transition: .3s;
+    }
+
+    .right-top-bar .welcome-user {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 789px) {
+
+    .modal-login {
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+
+    .modal-login .modal-content {
+        height: 665px !important;
+    }
+
+    .modal-login .modal-content .login-left {
+        height: 660px;
+    }
+
+    .modal-login .modal-content .modal-body {
+        min-height: 645px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .modal-login .modal-content .login-left .login-image {
+        width: 55%;
+    }
+
+    .register-form {
+        height: 90px !important;
+    }
+
+    .modal-login .modal-content .login-left-container {
+        display: none !important;
+    }
+
+    .modal-login {
+        background-color: transparent;
+    }
+
+    .modal-login .modal-content {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px !important;
+    }
+
+}
+
+@media screen and (max-width: 655px) {
+
+    .modal-login .modal-content .login-left .login-image {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+
+    .modal-login .modal-content .login-left .login-image {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .modal-login .modal-content .login-right .login-tabs .list-login li {
+        padding: 10px 40px;
+    }
+
+    .welcome-user .user-container .user-dropdown ul li a {
+        color: rgb(30, 30, 30);
+        font-weight: bold;
+        transition: .3s;
+    }
+
+    .welcome-user .user-container .user-dropdown ul li a:hover {
+        color: #6c7ae0;
+        transition: .3s;
+    }
+
+    .modal-login .modal-content {
+        margin-top: -90px !important;
+        margin-left: 16px !important;
+        width: 85% !important;
+        height: 480px !important;
+    }
+
+    #tab_signup_hide {
+        height: 350px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .modal-login .modal-content {
+        margin-top: -20px;
+    }
+
+    .modal-login .modal-content {
+        width: 85%;
+    }
+
+    .modal-login .modal-content .login-right .login-tabs ul.list-login li:nth-child(2) {
+        padding: 10px !important;
+    }
+
+    .modal-login .modal-content {
+        margin-top: -70px !important;
+        margin-left: 13px !important;
+        height: 435px !important;
+    }
+}
+
+
+@media screen and (max-width: 321px) {
+
+    .modal-login .modal-content .login-right .login-tabs .list-login li {
+        padding: 10px 20px;
+    }
+
+    .modal-login .modal-content .login-right .login-container .input-btn-form #get_otp {
+        font-size: 11px;
+        padding: 12px 11px;
+    }
+
+    #phone_input {
+        padding-right: 115px;
+    }
+
+    .modal-login .modal-content {
+        margin-top: 50px !important;
+        margin-left: 10px !important;
+    }
+}
